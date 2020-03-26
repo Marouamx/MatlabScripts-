@@ -3,6 +3,7 @@
 %%%%%% Supports complex numbers as parameters too %%%%%%%
 %%%%%% enter cmplx nbrs in the format : a+bi %%%%%%%
 
+
   n = input("Enter nbr of unknowns for your system of eq : ")
     
   mat = zeros(n,n+1);
@@ -29,6 +30,8 @@
      
     %displaying the output
     for j = 1:n, 
+
       fprintf('\n unknown nbr %i is %f\n ',j,results(j));
+
     end
    
